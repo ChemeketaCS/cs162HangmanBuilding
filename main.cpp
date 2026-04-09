@@ -6,7 +6,7 @@ using namespace std;
 
 
 int main () {
-  Hangman game("hello");
+  Hangman game("game");
 
   while(!game.isDone()) {
     cout << "Current board: " << game.getBoard() << endl;

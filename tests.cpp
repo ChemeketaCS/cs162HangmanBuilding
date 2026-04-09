@@ -7,10 +7,10 @@ using doctest::Approx;
 
 TEST_CASE("test basics")
 {
-  Hangman game("hello");
+  Hangman game("game");
 
-  CHECK(game.getWord() == "hello");
-  CHECK(game.getBoard() == "_____");
+  CHECK(game.getWord() == "game");
+  CHECK(game.getBoard() == "____");
   CHECK(game.getGuessedLetters() == "");
   CHECK(game.getWrongGuesses() == 0);
 }
